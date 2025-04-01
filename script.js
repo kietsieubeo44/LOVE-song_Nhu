@@ -112,7 +112,7 @@ audio.addEventListener('ended', function() {
 
     // Display "I love you" with heart effect
     const loveYouText = document.createElement('span');
-    loveYouText.textContent = "I love you ";
+    loveYouText.textContent = "I love you Như";
     loveYouText.classList.add('love-you-text', 'glowing-text'); // Add both classes for styling and glow effect
     const heartIcon = document.createElement('span');
     heartIcon.innerHTML = "&hearts;";
